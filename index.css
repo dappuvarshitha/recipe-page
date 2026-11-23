@@ -1,0 +1,115 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.background-container{
+    background-color:hsl(30, 54%, 90%);
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.white-container{
+    background-color:hsl(0, 0%, 100%);
+    max-width:700px;
+    width:90%;
+    padding:20px;
+    border-radius:10px;
+    margin:20px;
+}
+.img_container{
+    width:100%;
+    border-radius:10px;
+    display:block;
+
+
+}
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    color: hsl(24, 5%, 18%); 
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(30, 10%, 34%); 
+    line-height: 1.6;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%); /* Rose 50 from style guide */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.prep-time h3 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 61%, 71%); 
+    margin-bottom: 10px;
+}
+
+.prep-time ul li {
+    color: hsl(30, 10%, 34%); 
+    margin-bottom: 8px;
+}
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+.ingredients {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients ul li {
+    color: hsl(30, 10%, 34%); 
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.instructions {
+    padding: 20px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions ol li {
+    color: hsl(30, 10%, 34%); 
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.instructions ol li b {
+    color: hsl(24, 5%, 18%); 
+}
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.nutrition table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+}
+
+.nutrition table tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition table td {
+    padding: 10px 0;
+    color: hsl(30, 10%, 34%); 
+    width: 50%;
+}
+
+.nutrition table td:last-child {
+    color: hsl(14, 45%, 36%); 
+    font-weight: 700;
+}
+
+
+
+
